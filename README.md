@@ -15,3 +15,5 @@ The result is somethink like this:
     color red, (name C*) & resi 2+8+13+19+37+62+89+108+113+114+115+116+117+118+119+120+121+122+123+131+132+133+134+135
     show sticks, resi 2+8+13+19+37+62+89+108+113+114+115+116+117+118+119+120+121+122+123+131+132+133+134+135
 
+## blu_check_mutations.py
+Simple script for sanity check of blueprint file: list the mutations present.
