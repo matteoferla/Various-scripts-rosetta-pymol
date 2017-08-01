@@ -19,6 +19,7 @@ The result is somethink like this:
 Simple script for sanity check of blueprint file: list the mutations present.
 
 ## PDB_to_mutlist.py
-Rosetta spits out PBD files but not good old fashioned genetic mutation lists. This fixes things.
-It recognises insertions and deletions, but it reads the first chain only... which is fine as waters and often other chains get stripped anyway.
+Rosetta spits out PBD files but not good old fashioned genetic mutation lists (_e.g._ A34T). This fixes things. It accepts the reference PDB and the list of mutant PDB and prints to the terminal the name and the mutations present.
+It recognises insertions and deletions.
+However, t reads the first chain only... which is fine as waters and often other chains get stripped anyway.
 
