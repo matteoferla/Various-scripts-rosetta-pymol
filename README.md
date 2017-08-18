@@ -23,3 +23,5 @@ Rosetta spits out PBD files but not good old fashioned genetic mutation lists (_
 It recognises insertions and deletions.
 However, t reads the first chain only... which is fine as waters and often other chains get stripped anyway.
 
+## relax_score_to_bfactor.py
+Ehm... Rosetta PDB files have a per amino acid score at the end, this script makes the score become the B-factor. Please note that bad score does not mean wobbly (_i.e._ blurry on difraction pattern) but more unhappy. I cannot say what other parameters are useful as to be honest I never look at them.
