@@ -25,3 +25,6 @@ However, t reads the first chain only... which is fine as waters and often other
 
 ## relax_score_to_bfactor.py
 Ehm... Rosetta PDB files have a per amino acid score at the end, this script makes the score become the B-factor. Please note that bad score does not mean wobbly (_i.e._ blurry on difraction pattern) but more unhappy. I cannot say what other parameters are useful as to be honest I never look at them.
+
+## pymolise_mutations.py
+A short script to convert a list of mutations (_e.g._ A2T D45K K342E etc) into a copypastable set of commands to display in PyMol those residues (which the user can selectively copy).
