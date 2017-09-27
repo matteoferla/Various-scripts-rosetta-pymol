@@ -42,7 +42,7 @@ def PDB_seq_comparer(ref, mutants):
                 offset+=1
                 mlist.append('del_' + a[0][i]+str(i+offset))
             elif a[0][i] != a[1][i]:
-                mlist.append(a[0][i]+str(i+offset)+a[1][i])
+                mlist.append(a[0][i]+str(i+offset+1)+a[1][i])
         print(mut+'\t'+' '.join(mlist))
 
 if __name__ == "__main__":
