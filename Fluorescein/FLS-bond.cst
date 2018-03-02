@@ -1,0 +1,11 @@
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: SG CB
+  TEMPLATE::   ATOM_MAP: 1 residue1: C
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: C1 C2
+  TEMPLATE::   ATOM_MAP: 2 residue3: FLS
+
+  CONSTRAINT:: distanceAB:    1.82   0.30 100.00  1        0
+  CONSTRAINT::    angle_A:  101.10   6.00 100.00  360.00   1
+  CONSTRAINT::    angle_B:  110.60   6.00 100.00  360.00   1
+CST::END
