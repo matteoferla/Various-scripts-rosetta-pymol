@@ -28,3 +28,7 @@ Ehm... Rosetta PDB files have a per amino acid score at the end, this script mak
 
 ## pymolise_mutations.py
 A short script to convert a list of mutations (_e.g._ A2T D45K K342E etc) into a copypastable set of commands to display in PyMol those residues (which the user can selectively copy).
+
+## Fluorescein
+See Readme.md
+Rosetta params for Fluorescein-5-maleimide conjugated cysteine (technically fluorescein-5-succinimide) and its ring opened form (succinamate).
