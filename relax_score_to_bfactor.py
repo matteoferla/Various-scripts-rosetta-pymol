@@ -23,7 +23,7 @@ def bfactorise(infile,outfile):
     for l in open(infile, 'r'):
         # label fa_atr fa_rep fa_sol fa_intra_rep fa_elec pro_close hbond_sr_bb hbond_lr_bb hbond_bb_sc hbond_sc dslf_fa13 rama omega fa_dun p_aa_pp yhh_planarity ref total
         # LEU_2 -3.50043 0.1252 1.55802 0.00859 0.08156 0 0 0 0 0 0 -0.19676 0.00608 0.08399 -0.20463 0 0.76113 -1.27727
-        rex = re.match('\w.*_(\d+)', l) #greedy!
+        rex = re.match('\w.*_(\d+)', l)
         if l.find('ATOM') != -1:
             structure.append(l)
         elif rex:
