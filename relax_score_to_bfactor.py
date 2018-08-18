@@ -28,7 +28,7 @@ def bfactorise(infile,outfile):
             structure.append(l)
         elif rex:
             resn = l.split(' ')
-            bfactors[int(rex.group(1))] = float(resn[-1])
+            bfactors[int(rex.group(1))] = float(resn[3])
 
     baseline = 0 - min(bfactors.values())
 
