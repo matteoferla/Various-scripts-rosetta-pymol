@@ -10,7 +10,7 @@ ATOM  CA  CAbb CT1   0.07   0.100
 ATOM  C   CObb C     0.51   0.550
 ATOM  O   OCbb O    -0.51  -0.550
 ATOM  CB  CH2  CT2  -0.18   0.000
-ATOM  CG  CNH2 CC    0.55   0.550
+ATOM  CG  C1 CC    0.55   0.550
 ATOM  OD1 ONH2 O    -0.82  -0.550  # more negative...
 ATOM  ND2 NH2O NH2  -0.62  -0.780
 ATOM  H   HNbb H     0.31   0.250
