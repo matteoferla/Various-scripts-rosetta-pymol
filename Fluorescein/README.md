@@ -26,11 +26,13 @@ Do the following in PyMol:
 	#The chain does not need to match, but it does have to be consistent.
 	alter lig, chain='A'
 	alter lig, resi='n' #where n is the last chain.
+	alter resn CYS, resn='CYD'
 	sort
 	#save
 	save myprotein-FLS.pdb,all
 
-In the above the HG atom was not de
+In the above the HG atom will cause trouble and cysteine needs to be deprotonated.
+
 Ammend the PDB file to contain: `REMARK 666 MATCH TEMPLATE A CYS  XX MATCH MOTIF A FLS   YY  1  1 `
 where XX is the residue id of cysteine and YY of the FLS.     
 NB. A CONECT line can be added but Rosetta does not care.     
