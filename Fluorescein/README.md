@@ -26,12 +26,12 @@ Do the following in PyMol:
 	#The chain does not need to match, but it does have to be consistent.
 	alter lig, chain='A'
 	alter lig, resi='n' #where n is the last chain.
-	alter resn CYS, resn='CYD'
+	#alter resn CYS, resn='CYX'
 	sort
 	#save
 	save myprotein-FLS.pdb,all
 
-In the above the HG atom will cause trouble and cysteine needs to be deprotonated.
+In the above the HG atom will cause trouble and cysteine needs to be deprotonated. CYX is a crosslinking cysteine but does not work this time round for me and I cannot find what is different on my notes. CYD will "work", but the resulting amino acid will have a cysteine attached to it as D is for disulfide not deprotonated.
 
 Ammend the PDB file to contain: `REMARK 666 MATCH TEMPLATE A CYS  XX MATCH MOTIF A FLS   YY  1  1 `
 where XX is the residue id of cysteine and YY of the FLS.     
