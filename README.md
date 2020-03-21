@@ -1,5 +1,6 @@
 # rosetta-pymol
-scripts for Rosetta and PyMol stuff
+Scripts for Rosetta and PyMol, and various param files for isopeptide bonds intermediates.
+These scripts were made before I started heavily using Pyrosetta. Therefore, I am sure they could be better!
 
 ## blu_to_pymol.py
 Script that converts a Rosetta remodel blueprint into a series of commands for Pymol to colour code so to show what has been done.
